@@ -10,13 +10,13 @@ int main()
     //store elements in the array
     for (int i = 0; i < size; i++)
     {
-        printf("\nPlease enter element into the position:%d",i);
+        printf("\nPlease enter element into the position %d:",i);
         scanf("%d",(arr+i));
     }
     //printting the content of the array
     for (int j = 0; j < size; j++)
     {
-        printf("a[%d]",*(arr+j));
+        printf("a[%d]:%d\n",j,*(arr+j));
     }
     
     return 0;
